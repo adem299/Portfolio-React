@@ -1,8 +1,7 @@
 import { CONTACT } from "../constants"
 import { SiGmail } from "react-icons/si";
-import { RiWhatsappLine } from "react-icons/ri";
-import { delay, motion } from "framer-motion";
-import { RiGithubLine, RiLinkedinLine, RiTwitterLine } from "react-icons/ri";
+import { motion } from "framer-motion";
+import { RiGithubLine, RiLinkedinLine, RiTwitterLine, RiInstagramLine } from "react-icons/ri";
 
 const iconVariant = (duration) => ({
   initial: { y: -2},
@@ -38,19 +37,19 @@ const Contact = () => {
               href="mailto:mulyanaade30@gmail.com" className="hover:text-purple-500">
                 <SiGmail size={24} />
               </motion.a>
-              <motion.a 
-                variants={iconVariant(4)}
-                initial="initial"
-                animate="animate"
-                href="https://whatsapp.com/089630048231" className="hover:text-purple-500">
-                <RiWhatsappLine size={24} />
-              </motion.a>
               <motion.a
                 variants={iconVariant(3)}
                 initial="initial"
                 animate="animate"
                 href="https://github.com/adem299" className="hover:text-purple-500">
                 <RiGithubLine size={24} />
+              </motion.a>
+              <motion.a
+                variants={iconVariant(4)}
+                initial="initial"
+                animate="animate"
+               href="https://www.instagram.com/adeem77i/" className="hover:text-purple-500">
+                <RiInstagramLine size={24} />
               </motion.a>
               <motion.a
                 variants={iconVariant(5)}
