@@ -3,6 +3,8 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 export const HERO_CONTENT = `I am an undergraduate computer science student with strong passionate in software developer fields especially in mobile development and web development.`;
 
@@ -42,14 +44,6 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    title: "KostHub",
-    image: project1,
-    description:
-      "A web application for boarding house (kost) search in Bandung, integrated with AI features such as a chatbot for user assistance and price prediction for better decision-making. I contributed as a Frontend Developer and UI/UX Designer, responsible for creating responsive and intuitive user interfaces using React.js and Tailwind CSS, while ensuring seamless user experience and efficient interaction with backend services.",
-    technologies: ["React.js", "Tailwind CSS", "Vite"],
-    githubLink: "https://github.com/TOEFLify",
-  },
-  {
     title: "TOEFLify",
     image: project1,
     description:
@@ -58,8 +52,16 @@ export const PROJECTS = [
     githubLink: "https://github.com/TOEFLify",
   },
   {
+    title: "KostHub",
+    image: project7,
+    description:
+      "A web application for boarding house (kost) search in Bandung, integrated with AI features such as a chatbot for user assistance and price prediction for better decision-making. I contributed as a Frontend Developer and UI/UX Designer, responsible for creating responsive and intuitive user interfaces using React.js and Tailwind CSS, while ensuring seamless user experience and efficient interaction with backend services.",
+    technologies: ["React.js", "Tailwind CSS", "Vite"],
+    githubLink: "https://github.com/TOEFLify",
+  },
+  {
     title: "Silela",
-    image: project1,
+    image: project6,
     description:
       "A mobile application that enables residents of Isola to request and manage official administrative letters online, simplifying the document submission and verification process. I contributed as a Fullstack Mobile Developer, responsible for designing the database schema, building and integrating the backend using FastAPI and MySQL, and developing the mobile frontend with Flutter to ensure a seamless user experience.",
     technologies: ["Flutter", "FastAPI", "MySQL"],
